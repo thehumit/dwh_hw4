@@ -1,0 +1,22 @@
+# Apache Superset Setup with Docker Compose
+
+## Overview
+This repository contains a Bash script for quickly setting up Apache Superset using Docker Compose. The script automates the process of cloning the Superset repository, pulling the required Docker images, and starting the services using Docker Compose.
+
+## Prerequisites
+Before running the script, ensure you have the following installed:
+- Git
+- Docker
+- Docker Compose
+
+## Script Description
+The `run_superset.sh` script performs the following actions:
+1. Clones the Apache Superset repository from GitHub.
+2. Pulls the necessary Docker images using the `docker-compose-non-dev.yml` file from the Superset repository.
+3. Launches the Docker containers using the same `docker-compose-non-dev.yml` file.
+
+## Usage
+To use the script, follow these steps:
+
+1. **Run this script in repo**
+   ```bash superset.sh
